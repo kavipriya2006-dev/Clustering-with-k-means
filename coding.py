@@ -7,8 +7,7 @@ from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.decomposition import PCA
 
-# Load dataset
-df = pd.read_csv('Mall_Customers.csv')  # Replace with actual dataset file
+df = pd.read_csv('Mall_Customers.csv') 
 
 # Display first few rows
 print("Dataset Preview:")
